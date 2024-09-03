@@ -33,27 +33,19 @@ body{
     background-color:#ffa791;
     color:white;
     font-weight: bolder;
-    height: 20px;
-    padding: 6px 5px 5px 20px;
+    height: 30px;
+
     font-size: 14px;
+    /*border: 1px solid red;*/
 }
 
-.content{
-    border-radius: 0px;
-    height:300px;
-    width:300px;
-    width:300px;
-    border:0px solid white;
-    margin: 5px 5px 5px 5px;
-    /*background-color:white;*/
-    color:black;
-    float: left;
-}
 
 #ssx{
     width:20%;
-    margin:0px 0px 0px 480px;
-    outline: 0;
+    /*border:1px solid red;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -63,19 +55,24 @@ a{
 
 .word{
     float: left;
+    /*border: 1px solid red;*/
+    margin: -22px 0px 0px 20px;
 }
 
 #word-center{
-    margin: -3px 0px 0px 450px;
+    text-align: center;
     font-size: 18px;
+    padding: 2px 0px 0px 0px;
+    /*border: 1px solid black;*/
+
 }
 
 #para{
-    margin: 0px 0px 0px 500px;
     font-weight: bolder;
+    text-align: center;
 }
 
 #para2{
-    margin: 0px 0px 0px 498px;
     font-size: 12px;
+    text-align: center;
 }
